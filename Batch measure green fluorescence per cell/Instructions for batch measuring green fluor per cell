@@ -6,3 +6,6 @@ running the macro, you will be asked to input the minimum and maximum threshold 
 know these beforehand. To determine what the minimum and maximum values are, go to image -> colour -> split channels, then select
 the green channel, then adjust -> threshold. Once you have chosen your threshold values, you can close the image and run the
 macro. The same threshold values will be used across all images processed in this batch. 
+
+You will also need to input a minimum size threshold for your particles. For more information on setting these thresholds, 
+see: https://imagej.net/imaging/particle-analysis.
