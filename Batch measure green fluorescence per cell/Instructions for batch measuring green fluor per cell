@@ -1,0 +1,8 @@
+To use this macro you need to have one folder location where all images you want to process are. Please do not store anything 
+else to this location. Once this macro has been run, your results will save to an excel file in this location. 
+
+To measure fluorescence, the macro creates a binary "mask" based on a fluorescence threshold that you will need to set. When 
+running the macro, you will be asked to input the minimum and maximum threshold values into a dialogue box, so you need to 
+know these beforehand. To determine what the minimum and maximum values are, go to image -> colour -> split channels, then select
+the green channel, then adjust -> threshold. Once you have chosen your threshold values, you can close the image and run the
+macro. The same threshold values will be used across all images processed in this batch. 
