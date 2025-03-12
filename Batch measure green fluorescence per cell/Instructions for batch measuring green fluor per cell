@@ -9,3 +9,17 @@ macro. The same threshold values will be used across all images processed in thi
 
 You will also need to input a minimum size threshold for your particles. For more information on setting these thresholds, 
 see: https://imagej.net/imaging/particle-analysis.
+
+TROUBLESHOOTING
+
+Q) Why am I not getting a mean fluorescence value?
+A) Go to Analyze -> Set measurements, and make sure you have "Area", "Mean gray value", "Min & max gray value" and "Limit to threshold" selected.
+
+Q) Why do I have an error relating to create mask?
+A) This could be for several reasons. Make sure that
+  1. All your images have green fluorescent channels in them.
+  2. All images saved in your folder are correctly formatted tifs
+  3. There are *only* images in your folder - .csv files or .txt files will crash the macro
+  4. That you have selected a file path which directs you to the correct folder and not a file within the folder.
+
+If all of these are OK and you are still receiving errors, please get in touch.
